@@ -7,13 +7,51 @@
   line-height: 1.5;
   font-weight: 400;
   font-synthesis: none;
+
 }
 
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
   background-color: #000000;
   color: #FFFFFF;
+  overflow-y: hidden;
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+}
+
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.scroll-section h3 {
+  color: var(--primaryTextColor);
+  letter-spacing: var(--headlineMedium);
+  font-size: var(--headlineMedium);
+  text-transform: uppercase;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
 }
