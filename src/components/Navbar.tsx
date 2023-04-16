@@ -9,7 +9,7 @@ const Navbar = (): JSX.Element => {
             <img src="/assets/logo.png" alt="vamverse-logo" className="w-[200px] " />
             <div>
                 <ul className="flex gap-4">
-                    {NavLinks.map(link => <li className={`text-[${link === selected ? '#F3CD03' : '#FFFFFF'}] ${link === selected && 'border-b-2 border-white '}  hover:border-b-2 hover:border-white cursor-pointer`} onClick={() => setSelected(link)}>{link}</li>)}
+                    {NavLinks.map(link => <li key={link} className={` ${link === selected && 'border-b-2 border-white '}  hover:border-b-2 hover:border-white cursor-pointer`} style={{ color: link === selected ? '#F3CD03' : '#FFFFFF' }} onClick={() => setSelected(link)}><a href={`/#${link.toLowerCase()}`}>{link}</a></li>)}
                 </ul>
             </div>
         </div>
