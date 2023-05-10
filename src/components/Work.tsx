@@ -5,8 +5,8 @@ import workData from '../data/work.json'
 
 const WorkCard = ({ index, title, description, category }: WorkCardProps) => {
     return (
-        <div className="flex justify-center gap-5 my-12" style={{ flexDirection: index % 2 !== 0 ? 'row' : "row-reverse" }}>
-            <img src="/assets/i.png" alt="work" className='w-[400px]' />
+        <div className={`work-wrapper`} >
+            <img src="/assets/i.png" alt="work" className='w-[400px] mx-auto' />
             <div className='flex flex-col items-start' >
                 <h4 className='text-2xl font-semibold'>{title}</h4>
                 <p className=''>{description}</p>
