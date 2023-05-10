@@ -66,13 +66,19 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .work-wrapper {
     display: flex;
     flex-direction: column;
   }
+
 }
 
-.work-wrapper:nth-child(even) {
-  flex-direction: row-reverse;
+
+
+@media only screen and (min-width: 800px) {
+  .work-wrapper:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }
