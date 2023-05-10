@@ -55,3 +55,30 @@ body {
   /* for Firefox */
   overflow-y: scroll;
 }
+
+.work-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .work-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media only screen and (min-width: 800px) {
+  .work-wrapper:nth-child(even) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
