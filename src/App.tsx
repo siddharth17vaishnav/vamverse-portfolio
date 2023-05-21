@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Work from "./components/Work"
 import Technologies from "./components/Technologies"
 import About from "./components/About"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
       <Hero />
       <Work />
       <Technologies />
-      <About/>
+      <About />
+      <Footer />
     </Container>
   )
 }
