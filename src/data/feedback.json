@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "star": 4,
+        "name": "Lizard",
+        "designation": "Designer",
+        "description": "Slate helps you see how many more days you need to work to reach your financial goal."
+    },
+    {
+        "id": 2,
+        "star": 4,
+        "name": "Lizard",
+        "designation": "Designer",
+        "description": "Slate helps you see how many more days you need to work to reach your financial goal."
+    },
+    {
+        "id": 3,
+        "star": 4,
+        "name": "Lizard",
+        "designation": "Designer",
+        "description": "Slate helps you see how many more days you need to work to reach your financial goal."
+    }
+]
