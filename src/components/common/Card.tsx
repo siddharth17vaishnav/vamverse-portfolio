@@ -8,7 +8,7 @@ import { deepPurple } from '@mui/material/colors';
 
 const Card = ({ description, name, designation, rating }: Record<string, string>) => {
     return (
-        <MuiCard sx={{ maxWidth: 345 }}>
+        <MuiCard sx={{ maxWidth: 345, mx: 'auto' }}>
             <CardActionArea>
                 <Rating name="read-only" value={Number(rating)} readOnly sx={{ pt: 2, pl: 2 }} />
                 <CardContent>

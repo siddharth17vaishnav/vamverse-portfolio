@@ -11,14 +11,14 @@ const Feedback = () => {
             <h3 className=" [text-align-last:center] text-4xl">What Client Say</h3>
             <p className="[text-align-last:center] text-justify py-5">Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics </p>
 
-            <div className="max-w-[80%] m-auto mt-16">
+            <div className=" mx-auto mt-16">
                 <Swiper
                     loop={true}
                     autoplay={{
                         delay: 2500,
                         disableOnInteraction: false,
                     }}
-                    slidesPerView={2.5}
+                    slidesPerView={3}
                     spaceBetween={15}
                     breakpoints={{
                         0: {
@@ -31,7 +31,7 @@ const Feedback = () => {
                         },
 
                         1024: {
-                            slidesPerView: 2.5,
+                            slidesPerView: 3,
                             spaceBetween: 50,
                         },
                     }}
