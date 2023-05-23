@@ -5,6 +5,7 @@ import Work from "./components/Work"
 import Technologies from "./components/Technologies"
 import About from "./components/About"
 import Footer from "./components/Footer"
+import Feedback from "./components/Feedback"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Work />
       <Technologies />
       <About />
+      <Feedback />
       <Footer />
     </Container>
   )
